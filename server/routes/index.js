@@ -9,7 +9,7 @@ router.get('/boardList', (req, res) => {
         include: [
             {
                 model: db.USER,
-                attributes: ['user_id']
+                attributes: ['name']
             }
         ]
     })
