@@ -17,7 +17,7 @@ const user = {
         id: null,
         password: null,
         name: null,
-        email_address: null
+        email: null
       }
     },
     default: {
@@ -29,7 +29,7 @@ const user = {
             id: null,
             password: null,
             name: null,
-            email_address: null
+            email: null
           }
         },
       },

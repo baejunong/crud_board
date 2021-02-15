@@ -4,25 +4,25 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('users', [
       {
-        user_id: 'admin',
+        id: 'admin',
         password: '1234',
         name: '운영자',
-        email_address: 'admin@crudBoard.com',
+        email: 'admin@crudBoard.com',
         createdAt: '2021-02-14 22:12:30',
         updatedAt: '2021-02-14 22:12:31'
       },
       {
-        user_id: 'user1',
+        id: 'user1',
         password: '1234',
         name: '사용자1',
-        email_address: 'user1@crudBoard.com',
+        email: 'user1@crudBoard.com',
         createdAt: '2021-02-14 22:12:30',
         updatedAt: '2021-02-14 22:12:31'
       },{
-        user_id: 'user2',
+        id: 'user2',
         password: '1234',
         name: '사용자2',
-        email_address: 'user2@crudBoard.com',
+        email: 'user2@crudBoard.com',
         createdAt: '2021-02-14 22:12:30',
         updatedAt: '2021-02-14 22:12:31'
       }
